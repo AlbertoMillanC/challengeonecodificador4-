@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 150%;
+    line-height: 120%;
     }
   
   .logo {
@@ -69,7 +69,11 @@
     position: absolute;
     float: left;
     box-shadow: 5px 5px 5px #ADB5BD;
-  }
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
     .code-area:focus {
       outline: none;
     }
@@ -87,10 +91,13 @@
       height: 67px;
       margin-left: 30px;
       width: 320px;
-      /* Estilo fuente */
-        text-align: center;
-        color: #F3F5FC;
-    }
+      /*Estilofuente*/text-align: center;
+      color: #F3F5FC;
+      -webkit-border-radius:20;
+      -moz-border-radius:20;
+      -ms-border-radius:20;
+      -o-border-radius:20;
+}
       .btn-encriptar:hover {
         font-weight: bold;
       }
@@ -103,10 +110,13 @@
       height: 67px;
       margin-left: 30px;
       width: 320px;
-      /* Estilo fuente */
-        text-align: center;
-        color: #0A3871;
-    }
+      /*Estilofuente*/text-align: center;
+      color: #0A3871;
+      -webkit-border-radius:;
+      -moz-border-radius:;
+      -ms-border-radius:;
+      -o-border-radius:;
+}
       .btn-desencriptar:hover {
         font-weight: bold;
       }
@@ -119,15 +129,18 @@
       height: 67px;
       margin-left: 150px;
       margin-top: 550px;
-      /*margin-bottom: 10px;*/
-      display: inline-block;
+      /*margin-bottom: 10px;
+      */display: inline-block;
       display: none;
       position: absolute;
       width: 320px;
-      /* Estilo fuente */
-        text-align: center;
-        color: #0A3871;
-    }
+      /*Estilofuente*/text-align: center;
+      color: #0A3871;
+      -webkit-border-radius:;
+      -moz-border-radius:;
+      -ms-border-radius:;
+      -o-border-radius:;
+}
       .btn-copiar:hover {
         background: #0A3871;
         color:#FFFFFF;
@@ -139,7 +152,7 @@
       opacity: 0;
     }
   
-  .copyright {
+  .footer {
     font-family: 'Inter';
     font-size: 16px;
     font-weight: bold;
@@ -150,3 +163,60 @@
     padding-top: 20px;
   }
 
+  @media only screen and (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    main {
+      margin-left: 20px;
+    }
+    
+    .input-area {
+      margin-left: 20px;
+    }
+    
+    .code-area {
+      margin-left: 20px;
+    }
+    
+    .btn-copiar {
+      margin-left: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para dispositivos tablet */
+    main {
+      margin-left: 50px;
+    }
+    
+    .input-area {
+      margin-left: 50px;
+    }
+    
+    .code-area {
+      margin-left: 50px;
+    }
+    
+    .btn-copiar {
+      margin-left: 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    /* Estilos para grandes formatos */
+    main {
+      margin-left: 80px;
+    }
+    
+    .input-area {
+      margin-left: 100px;
+    }
+    
+    .code-area {
+      margin-left: 90px;
+    }
+    
+    .btn-copiar {
+      margin-left: 150px;
+    }
+  }
+  
