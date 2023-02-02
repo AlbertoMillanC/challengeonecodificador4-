@@ -112,10 +112,10 @@
       width: 320px;
       /*Estilofuente*/text-align: center;
       color: #0A3871;
-      -webkit-border-radius:;
-      -moz-border-radius:;
-      -ms-border-radius:;
-      -o-border-radius:;
+      -webkit-border-radius:2;
+      -moz-border-radius:2;
+      -ms-border-radius:2;
+      -o-border-radius:2;
 }
       .btn-desencriptar:hover {
         font-weight: bold;
@@ -136,10 +136,10 @@
       width: 320px;
       /*Estilofuente*/text-align: center;
       color: #0A3871;
-      -webkit-border-radius:;
-      -moz-border-radius:;
-      -ms-border-radius:;
-      -o-border-radius:;
+      -webkit-border-radius:2;
+      -moz-border-radius:2;
+      -ms-border-radius:2;
+      -o-border-radius:2;
 }
       .btn-copiar:hover {
         background: #0A3871;
@@ -154,13 +154,14 @@
   
   .footer {
     font-family: 'Inter';
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
-    background: #495057;
+    
     text-align: center;
-    color: #FFFFFF;
-    height: 40px;
-    padding-top: 20px;
+    color: #0A3871;
+    padding-top: 40px;
+    
+    
   }
 
   @media only screen and (max-width: 767px) {
